@@ -99,7 +99,7 @@ namespace CSLT
             {
                 Console.WriteLine("Enter character: ");
                 char character = Console.ReadKey().KeyChar;
-                Console.WriteLine();
+                Console.WriteLine();  
 
                 int asciiValue = (int)character;
                 Console.WriteLine($"The ASCII value of '{character}' is: {asciiValue}");
